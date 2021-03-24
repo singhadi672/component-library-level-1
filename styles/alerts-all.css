@@ -1,0 +1,306 @@
+.component-alert1 {
+  width: 90%;
+  height: 250px;
+  background: white;
+  justify-self: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.alert-success {
+  width: 70%;
+  height: 70%;
+  border-radius: 1rem;
+  background: #3ebb61;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.alert-success > p {
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* CSS FOR ALERT 2 */
+
+.component-alert2 {
+  width: 90%;
+  height: 250px;
+  background: white;
+  justify-self: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.alert-failure {
+  width: 70%;
+  height: 70%;
+  border-radius: 1rem;
+  background: #d04224;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.alert-failure > p {
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+/* CSS FOR ALERT 3 */
+
+.component-alert3 {
+  width: 90%;
+  height: 400px;
+  background: white;
+  justify-self: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.alert-success-animate {
+  width: 50%;
+  height: 80%;
+  border-radius: 1rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 0.8rem solid green;
+  border-bottom: 0.8rem solid green;
+  box-shadow: 1px 1px 20px black;
+}
+
+.alert-success-animate > img {
+  width: 70px;
+  height: 70px;
+  animation: success 3s infinite;
+}
+
+.alert-success-animate-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 40%;
+}
+
+.alert-success-animate-text > h3 {
+  font-weight: 600;
+}
+
+.alert-success-animate-text > p {
+  color: rgb(95, 92, 92);
+}
+
+.alert-success-animate-text > button {
+  padding: 0.3rem 1rem;
+  background: green;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes success {
+  0% {
+    transform: rotateY(0deg);
+  }
+  10% {
+    transform: rotateY(180deg);
+  }
+  20% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+/* CSS FOR Alert 4 */
+
+.component-alert4 {
+  width: 90%;
+  height: 400px;
+  background: white;
+  justify-self: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.alert-failure-animate {
+  width: 50%;
+  height: 80%;
+  border-radius: 1rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 0.8rem solid #d04224;
+  border-bottom: 0.8rem solid #d04224;
+  box-shadow: 1px 1px 20px black;
+}
+
+.alert-failure-animate > img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  animation: failure 3s infinite;
+}
+
+.alert-failure-animate-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 40%;
+}
+
+.alert-failure-animate-text > h3 {
+  font-weight: 600;
+}
+
+.alert-failure-animate-text > p {
+  color: rgb(95, 92, 92);
+}
+
+.alert-failure-animate-text > button {
+  padding: 0.3rem 1rem;
+  background: #d04224;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@keyframes failure {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  5% {
+    transform: rotateZ(30deg);
+  }
+  10% {
+    transform: rotateZ(-30deg);
+  }
+  15% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+/* CSS FOR Alert 5 */
+
+.component-alert5 {
+  width: 90%;
+  height: 250px;
+  background: #1c133b;
+  justify-self: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.toast-success {
+  width: 96%;
+  height: 40%;
+  background: linear-gradient(90deg, #23384b, #262045);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.toast-success > img {
+  width: 20px;
+  height: 20px;
+}
+
+.toast-success-text {
+  display: flex;
+  height: 80%;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.toast-success-text > h6 {
+  color: #35c780;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.toast-success-text > p {
+  font-weight: 100;
+  font-size: 0.9rem;
+  color: gainsboro;
+}
+
+
+/* CSS FOR Alert 6 */
+
+.component-alert6 {
+  width: 90%;
+  height: 250px;
+  background: #1c133b;
+  justify-self: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.toast-failure {
+  width: 96%;
+  height: 40%;
+  background: linear-gradient(90deg, #3E1D45, #262045);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.toast-failure > img {
+  width: 30px;
+  height: 20px;
+}
+
+.toast-failure-text {
+  display: flex;
+  height: 80%;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.toast-failure-text > h6 {
+  color: #C9124A;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.toast-failure-text > p {
+  font-weight: 100;
+  font-size: 0.9rem;
+  color: gainsboro;
+}

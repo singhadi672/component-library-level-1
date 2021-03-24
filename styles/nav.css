@@ -1,0 +1,100 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.leaf {
+  width: 55px;
+  height: 40px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.leaf1 {
+  background: #f3ac3c;
+  margin-left: 15px;
+  position: absolute;
+}
+
+.leaf2 {
+  background: #998235;
+  position: absolute;
+}
+
+.leaf3 {
+  background: #1a4341;
+  margin-left: -15px;
+}
+
+.nav {
+  margin: 1rem 6rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.name {
+  margin-left: 2.5rem;
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.nav > nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  flex-basis: 60%;
+  justify-content: center;
+}
+.search-field {
+  width: 80%;
+  padding-left: 0.5rem;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.search-field:focus {
+  outline: none;
+}
+
+.search > i {
+  margin: 1rem 0.5rem;
+  color: rgb(199, 187, 187);
+  cursor: pointer;
+}
+
+.search > i:hover {
+  color: grey;
+}
+
+.version {
+  font-size: 1.2rem;
+  color: rgb(170, 165, 165);
+}
+
+@media screen and (max-width: 995px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .nav {
+    margin: 1rem 1rem;
+  }
+
+  .search-field {
+    width: 80%;
+    padding-left: 0.5rem;
+    border: none;
+    font-size: 1rem;
+  }
+
+  .version {
+    font-size: 0.7rem;
+    color: rgb(170, 165, 165);
+  }
+}
