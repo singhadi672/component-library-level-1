@@ -1,7 +1,7 @@
 .component-alert1 {
   width: 90%;
   height: 250px;
-  background: white;
+  background: var(--white);
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -13,14 +13,14 @@
   width: 70%;
   height: 70%;
   border-radius: 1rem;
-  background: #3ebb61;
+  background:var(--success);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .alert-success > p {
-  color: white;
+  color: var(--white);
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
@@ -31,7 +31,7 @@
 .component-alert2 {
   width: 90%;
   height: 250px;
-  background: white;
+  background: var(--white);
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -43,14 +43,14 @@
   width: 70%;
   height: 70%;
   border-radius: 1rem;
-  background: #d04224;
+  background:var(--alert);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .alert-failure > p {
-  color: white;
+  color: var(--white);
   padding: 1rem;
   text-align: center;
   font-size: 1.2rem;
@@ -61,7 +61,7 @@
 .component-alert3 {
   width: 90%;
   height: 400px;
-  background: white;
+  background: var(--white);
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -73,14 +73,14 @@
   width: 50%;
   height: 80%;
   border-radius: 1rem;
-  background: white;
+  background: var(--white);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border-top: 0.8rem solid green;
-  border-bottom: 0.8rem solid green;
-  box-shadow: 1px 1px 20px black;
+  border-top: 0.8rem solid var(--green);
+  border-bottom: 0.8rem solid var(--green);
+  box-shadow: 1px 1px 20px var(--black);
 }
 
 .alert-success-animate > img {
@@ -102,14 +102,14 @@
 }
 
 .alert-success-animate-text > p {
-  color: rgb(95, 92, 92);
+  color: var(--grey);
 }
 
 .alert-success-animate-text > button {
   padding: 0.3rem 1rem;
-  background: green;
+  background: var(--green);
   border: none;
-  color: white;
+  color: var(--white);
   border-radius: 5px;
   cursor: pointer;
 }
@@ -134,7 +134,7 @@
 .component-alert4 {
   width: 90%;
   height: 400px;
-  background: white;
+  background: var(--white);
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -146,14 +146,14 @@
   width: 50%;
   height: 80%;
   border-radius: 1rem;
-  background: white;
+  background: var(--white);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border-top: 0.8rem solid #d04224;
-  border-bottom: 0.8rem solid #d04224;
-  box-shadow: 1px 1px 20px black;
+  border-top: 0.8rem solid var(--alert);
+  border-bottom: 0.8rem solid var(--alert);
+  box-shadow: 1px 1px 20px var(--black);
 }
 
 .alert-failure-animate > img {
@@ -176,14 +176,14 @@
 }
 
 .alert-failure-animate-text > p {
-  color: rgb(95, 92, 92);
+  color: var(--grey);
 }
 
 .alert-failure-animate-text > button {
   padding: 0.3rem 1rem;
-  background: #d04224;
+  background: var(--alert);
   border: none;
-  color: white;
+  color: var(--white);
   border-radius: 5px;
   cursor: pointer;
 }
@@ -211,7 +211,7 @@
 .component-alert5 {
   width: 90%;
   height: 250px;
-  background: #1c133b;
+  background: var(--alert-blue);
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -222,11 +222,11 @@
 .toast-success {
   width: 96%;
   height: 40%;
-  background: linear-gradient(90deg, #23384b, #262045);
+  background: linear-gradient(90deg, var(--success-blue), var(--toast-blue));
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  color: #fff;
+  color: var(--white);
   border-radius: 5px;
 }
 
@@ -244,7 +244,7 @@
 }
 
 .toast-success-text > h6 {
-  color: #35c780;
+  color: var(--success);
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -252,7 +252,7 @@
 .toast-success-text > p {
   font-weight: 100;
   font-size: 0.9rem;
-  color: gainsboro;
+  color: var(--gains-boro);
 }
 
 
@@ -261,7 +261,7 @@
 .component-alert6 {
   width: 90%;
   height: 250px;
-  background: #1c133b;
+  background: var(--alert-blue);
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -272,11 +272,11 @@
 .toast-failure {
   width: 96%;
   height: 40%;
-  background: linear-gradient(90deg, #3E1D45, #262045);
+  background: linear-gradient(90deg, var(--error-blue), var(--toast-blue));
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  color: #fff;
+  color: var(--white);
   border-radius: 5px;
 }
 
@@ -294,7 +294,7 @@
 }
 
 .toast-failure-text > h6 {
-  color: #C9124A;
+  color: var(--alert);
   font-size: 1.2rem;
   font-weight: 500;
 }
@@ -302,5 +302,5 @@
 .toast-failure-text > p {
   font-weight: 100;
   font-size: 0.9rem;
-  color: gainsboro;
+  color:var(--gains-boro);
 }

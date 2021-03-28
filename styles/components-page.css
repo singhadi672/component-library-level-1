@@ -9,6 +9,11 @@
   margin: 0rem;
 }
 
+.logo-nav{
+  text-decoration: none;
+  color: var(--black);
+}
+
 .components-main {
   display: grid;
   grid-template-columns: 0.25fr 1fr;

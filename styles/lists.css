@@ -1,7 +1,7 @@
 .component-list1 {
   width: 80%;
   height: 400px;
-  background: white;
+  background: var(--white);
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -25,7 +25,7 @@
 .component-list2 {
   width: 80%;
   height: 400px;
-  background: linear-gradient(120deg, #021d55, #01073b);
+  background: linear-gradient(120deg, var(--blue-mid), var(--blue-black));
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -39,7 +39,7 @@
   flex-direction: column;
   justify-content: space-around;
   list-style: none;
-  color: white;
+  color: var(--white);
 }
 
 .component-list2 > ol > li {
@@ -52,7 +52,7 @@
 .component-list3 {
   width: 80%;
   height: 400px;
-  background: linear-gradient(120deg, black, #17181a);
+  background: linear-gradient(120deg, var(--black), var(--black-light));
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -66,7 +66,7 @@
   flex-direction: column;
   justify-content: space-around;
   list-style: none;
-  color: white;
+  color: var(--white);
 }
 
 .component-list3 > ol > li {
@@ -76,7 +76,7 @@
 }
 
 .component-list3 > ol > li:hover {
-  color: rgb(11, 255, 255);
+  color: var(--cyan-light);
 }
 
 /* CSS FOR LIST 4 */
@@ -84,7 +84,11 @@
 .component-list4 {
   width: 80%;
   height: 400px;
-  background: linear-gradient(120deg, rgb(248, 232, 3), #ffbb00);
+  background: linear-gradient(
+    120deg,
+    var(--bright-yellow),
+    var(--mustard-yellow)
+  );
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -98,7 +102,7 @@
   flex-direction: column;
   justify-content: space-around;
   list-style: none;
-  color: black;
+  color: var(--black);
 }
 
 .component-list4 > ol > li {
@@ -116,7 +120,7 @@
 .component-list5 {
   width: 80%;
   height: 400px;
-  background: white;
+  background: var(--white);
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -135,13 +139,12 @@
 }
 
 .list-item {
-  background: rgb(5, 5, 5);
+  background: var(--black-light);
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
-  /* padding: 0.5rem; */
+  color: var(--white);
 }
 .list-item > img {
   width: 20%;
@@ -159,7 +162,7 @@
 .component-list6 {
   width: 80%;
   height: 400px;
-  background: black;
+  background: var(--black);
   justify-self: center;
   border-radius: 15px;
   display: flex;
@@ -175,12 +178,12 @@
   justify-content: center;
   list-style: none;
   padding: 0.5rem;
-  color: white;
+  color: var(--white);
 }
 
 .component-list6 > ol > li {
   width: 95%;
-  background: rgb(31, 30, 32);
+  background: var(--black-light);
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 10px;
@@ -192,20 +195,20 @@
 }
 
 .border-orange {
-  border-left: 0.5rem solid rgb(255, 115, 0);
+  border-left: 0.5rem solid var(--orange);
 }
 .border-blue {
-  border-left: 0.5rem solid blue;
+  border-left: 0.5rem solid var(--blue-std);
 }
 .border-green {
-  border-left: 0.5rem solid rgb(157, 255, 0);
+  border-left: 0.5rem solid var(--lime);
 }
 .border-yellow {
-  border-left: 0.5rem solid rgb(238, 255, 0);
+  border-left: 0.5rem solid var(--bright-yellow);
 }
 
-@media screen and (max-width: 632px){
-  .list-item{
+@media screen and (max-width: 632px) {
+  .list-item {
     padding: 0;
   }
 }

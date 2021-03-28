@@ -17,7 +17,7 @@
 .component-avatar1-status {
   width: 15%;
   height: 15%;
-  background: rgb(7, 247, 7);
+  background: var(--online);
   z-index: 3;
   position: relative;
   clip-path: circle();
@@ -46,7 +46,7 @@
 .component-avatar2-status {
   width: 15%;
   height: 15%;
-  background: rgb(235, 252, 4);
+  background: var(--bright-yellow);
   z-index: 3;
   position: relative;
   clip-path: circle();
@@ -78,7 +78,7 @@
   /* height: 100%; */
   display: flex;
   border-radius: 50%;
-  border: 6px solid rgb(255, 6, 6);
+  border: 6px solid var(--red);
   box-shadow: 1px 1px 30px;
 }
 
@@ -90,7 +90,7 @@
   .component-avatar1-status {
     width: 10%;
     height: 12%;
-    background: rgb(7, 247, 7);
+    background: var(--online);
     z-index: 3;
     position: relative;
     clip-path: circle();
@@ -105,7 +105,7 @@
   .component-avatar2-status {
     width: 10%;
     height: 12%;
-    background: rgb(235, 252, 4);
+    background: var(--bright-yellow);
     z-index: 3;
     position: relative;
     clip-path: circle();
@@ -113,7 +113,7 @@
     left: 0;
   }
 
-  .component-avatar3-status  {
+  .component-avatar3-status {
     width: 50%;
   }
 }

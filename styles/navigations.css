@@ -6,12 +6,12 @@
 
 .component-nav1 > nav {
   border-radius: 1rem;
-  color: white;
+  color: var(--white);
   padding: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #011627;
+  background: var(--blue-black);
 }
 
 .component-nav1 > nav > img {
@@ -40,22 +40,22 @@
 
 .nav1-user-account {
   padding: 0.3rem 0.5rem;
-  background: #011627;
-  color: white;
+  background: var(--blue-black);
+  color: var(--white);
   border: none;
   font-size: 1rem;
   cursor: pointer;
 }
 
 .signout-btn {
-  background: #fdd405;
+  background: var(--yellow-std);
   border-radius: 10px;
   padding: 0.5rem 1rem;
-  color: black;
+  color: var(--black);
 }
 
 .nav1-user > i {
-  color: #fdd405;
+  color: var(--yellow-std);
 }
 
 /* CSS FOR NAV 2 */
@@ -71,7 +71,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white;
+  background: var(--white);
 }
 
 .component-nav2 > nav > img {
@@ -89,17 +89,17 @@
   list-style: none;
   font-size: 1rem;
   font-weight: 600;
-  color: #74747f;
+  color: var(--grey);
   cursor: pointer;
 }
 
 .nav2-list > ol > li:hover {
-  color: rgb(231, 94, 147);
+  color: var(--baby-pink-std);
 }
 
 .upload-btn {
   padding: 1rem 2rem;
-  background: rgb(231, 94, 147);
+  background: var(--baby-pink-std);
   border-radius: 15px;
 }
 
