@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import "nav.css";
+@import "main-heading.css";
+@import "content.css";
+@import "components-page.css";
+@import "cards.css";
+@import "avatars.css";
+@import "lists.css";
+@import "buttons.css";
+@import "navigations.css";
+@import "alerts.css";
+@import "modals.css";
+@import "animations.css";
+
+:root {
+  --white: white;
+  --red: red;
+  --alert: #d04224;
+  --grey: grey;
+  --pale-yellow: rgb(158, 158, 14);
+  --dark-blue: rgb(1, 1, 46);
+  --blue-mid: #021d55;
+  --alert-blue: #1c133b;
+  --success-blue: #23384b;
+  --toast-blue: #262045;
+  --blue-black: #01073b;
+  --blue-std: blue;
+  --error-blue: #3e1d45;
+  --cyan-light: rgb(11, 255, 255);
+  --bright-yellow: rgb(207, 230, 3);
+  --yellow-std: #fdd405;
+  --pale-violet-red: palevioletred;
+  --black: black;
+  --black-light: #171800;
+  --grey-light: #9e9898;
+  --mustard-yellow: rgb(245, 170, 9);
+  --border-grey: rgb(187, 183, 183);
+  --pink: rgb(245, 80, 245);
+  --baby-pink-std: rgb(231, 94, 147);
+  --green: green;
+  --grass-green: #227e48;
+  --online: rgb(7, 247, 7);
+  --success: #3ebb61;
+  --lime: rgb(157, 255, 0);
+  --orange: rgb(255, 115, 0);
+  --secondary-btn: rgb(206, 206, 253);
+  --sticky-btn: rgb(2, 46, 2);
+  --secondary-link: rgb(59, 5, 5);
+  --yellow-green: yellowgreen;
+  --gains-boro: gainsboro;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}

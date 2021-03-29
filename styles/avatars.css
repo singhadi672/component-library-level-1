@@ -1,0 +1,119 @@
+.component-avatar1 {
+  width: 80%;
+  height: 300px;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.component-avatar1 > img {
+  width: 70%;
+  object-fit: contain;
+  position: relative;
+}
+
+.component-avatar1-status {
+  width: 15%;
+  height: 15%;
+  background: var(--online);
+  z-index: 3;
+  position: relative;
+  clip-path: circle();
+  top: -15%;
+  left: 20%;
+}
+
+/* CSS FOR AVATAR 2 */
+
+.component-avatar2 {
+  width: 80%;
+  height: 300px;
+  justify-self: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.component-avatar2 > img {
+  width: 70%;
+  object-fit: contain;
+}
+
+.component-avatar2-status {
+  width: 15%;
+  height: 15%;
+  background: var(--bright-yellow);
+  z-index: 3;
+  position: relative;
+  clip-path: circle();
+  top: -10%;
+  left: 0%;
+}
+
+/* CSS FOR AVATAR 3 */
+
+.component-avatar3 {
+  width: 80%;
+  height: 300px;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.component-avatar3-status {
+  width: 65%;
+  /* height: 50%; */
+  position: relative;
+  top: -7%;
+}
+
+.component-avatar3-status > img {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  border-radius: 50%;
+  border: 6px solid var(--red);
+  box-shadow: 1px 1px 30px;
+}
+
+@media screen and (max-width: 632px) {
+  .component-avatar1 > img {
+    width: 50%;
+  }
+
+  .component-avatar1-status {
+    width: 10%;
+    height: 12%;
+    background: var(--online);
+    z-index: 3;
+    position: relative;
+    clip-path: circle();
+    top: -15%;
+    left: 15%;
+  }
+
+  .component-avatar2 > img {
+    width: 50%;
+  }
+
+  .component-avatar2-status {
+    width: 10%;
+    height: 12%;
+    background: var(--bright-yellow);
+    z-index: 3;
+    position: relative;
+    clip-path: circle();
+    top: -10%;
+    left: 0;
+  }
+
+  .component-avatar3-status {
+    width: 50%;
+  }
+}

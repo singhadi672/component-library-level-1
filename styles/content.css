@@ -1,0 +1,433 @@
+.content {
+  margin: 3rem 6rem;
+}
+
+.content-img {
+  width: 50px;
+  height: 5%;
+}
+
+.content-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 10rem;
+}
+
+.content-item > h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.content-item h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.content-item > p {
+  width: 60%;
+  font-size: 1.5rem;
+  padding: 2rem 2rem 2rem 0rem;
+  color: #798188;
+  font-weight: 500;
+}
+
+/* CSS for card 1 of context */
+
+.item1 > h4 {
+  color: #9333eb;
+}
+
+.purple {
+  background: linear-gradient(120deg, #ff00ff, purple);
+  transform: rotateZ(-2deg);
+}
+
+.ide2-main {
+  background-color: #370a1e;
+}
+
+.ide2 {
+  background: #290716;
+}
+
+.card {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.sample-card1 {
+  background: white;
+  border-radius: 15px;
+  height: 70%;
+  width: 50%;
+  z-index: 3;
+  position: relative;
+  top: 50px;
+  left: 70px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 5px 50px 5px rgb(44, 43, 43);
+}
+
+.sample-card1 > img {
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.sample-card1-desc {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.sample-card1-desc h5 {
+  margin: 2rem 0rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.sample1-instock {
+  margin: 0.5rem;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.sample1-price {
+  margin-left: 5rem;
+  color: grey;
+}
+
+.sample {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sample1-size-btn {
+  width: 100%;
+}
+
+.sample1-size-btn > button {
+  margin: 0rem 0.2rem;
+  padding: 0.5rem;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.sample1-buy {
+  margin: 0.5rem 0rem;
+}
+
+.sample1-buy > button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.1rem;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  background: black;
+}
+
+/* CSS for card 2 of context */
+
+.item2 > h4 {
+  color: #41c0b7;
+}
+
+.green {
+  background: linear-gradient(120deg, rgb(112, 252, 94), cyan);
+  transform: rotateZ(2deg);
+}
+
+.ide3-main {
+  background-color: #022e35;
+}
+
+.ide3 {
+  background-color: #012228;
+}
+
+.sample-card2 {
+  background: white;
+  width: 30%;
+  height: 95%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 50px 5px rgb(44, 43, 43);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #262627;
+  justify-content: space-evenly;
+}
+
+.sample-card2 > img {
+  object-fit: cover;
+  animation: disk 6s infinite linear;
+  clip-path: circle();
+  width: 60%;
+  height: 40%;
+}
+
+.sample-card2 .input {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.sample2-desc {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sample2-desc > h5 {
+  font-size: 1.7rem;
+}
+
+.input > input {
+  width: 60%;
+  pointer-events: none;
+}
+
+.sample2-controls {
+  color: white;
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+@keyframes disk {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(90deg);
+  }
+
+  50% {
+    transform: rotateZ(180deg);
+  }
+
+  75% {
+    transform: rotateZ(270deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+/* CSS for card 3 of context */
+
+.item3 > h4 {
+  color: #fac215;
+}
+
+.yellow {
+  background: linear-gradient(120deg, rgb(243, 243, 10), orange);
+  transform: rotateZ(2deg);
+}
+
+.ide4-main {
+  background-color: #3e1d06;
+}
+
+.ide4 {
+  background-color: #2e1604;
+}
+
+.sample-card3 {
+  background: white;
+  width: 30%;
+  height: 95%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 50px 5px rgb(44, 43, 43);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #262627;
+  justify-content: space-evenly;
+}
+
+.sample3-list {
+  list-style: none;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sample3-list > li > h3 {
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.sample3-list > li > h3:hover {
+  color: yellow;
+}
+
+.footer {
+  width: 100%;
+  background: #f5f7f9;
+  height: 100px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media screen and (max-width: 1118px) {
+  .content {
+    margin: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .code {
+    display: none;
+  }
+
+  .content-item {
+    margin-bottom: 3rem;
+  }
+
+  .content-item > h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+  }
+
+  .content-item h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .content-item > p {
+    width: 100%;
+    font-size: 1rem;
+    padding: 2rem 0rem 1rem 0rem;
+    color: #798188;
+    font-weight: 500;
+  }
+
+  .sample-card1 {
+    background: white;
+    border-radius: 15px;
+    height: 70%;
+    width: 100%;
+    z-index: 3;
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 5px 5px 50px 5px rgb(44, 43, 43);
+  }
+
+  .sample-card1 > img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .sample-card1-desc {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .sample-card1-desc h5 {
+    margin: 0rem 0rem;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .sample1-instock {
+    margin: 0rem;
+    color: grey;
+    font-size: 1rem;
+  }
+
+  .sample1-size-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sample1-size-btn > button {
+    margin: 0rem 0.2rem;
+    padding: 0.5rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+
+  .sample1-buy {
+    margin: 0.5rem 0rem;
+  }
+
+  .sample1-buy > button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 0.1rem;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background: black;
+  }
+
+  /* CSS for item 2 of content */
+
+  .sample-card2 {
+    background: white;
+    width: 300px;
+    height: 95%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 50px 5px rgb(44, 43, 43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #262627;
+    justify-content: space-evenly;
+  }
+
+  .sample-card3 {
+    background: white;
+    width: 300px;
+    height: 95%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 50px 5px rgb(44, 43, 43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #262627;
+    justify-content: space-evenly;
+  }
+
+  .footer{
+      flex-direction: column;
+  }
+}
